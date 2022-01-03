@@ -24,10 +24,3 @@ d3.json(torontoData).then(function(data) {
 L.geoJSON(data).addTo(map);
 });
 
-// Grabbing our GeoJSON data.
-d3.json(airportData).then(function(data) {
-    console.log(data);
-  // Creating a GeoJSON layer with the retrieved data.
-  L.geoJSON(data).addTo(map);
-});
-

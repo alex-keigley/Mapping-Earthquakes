@@ -160,6 +160,8 @@ legend.onAdd = function() {
     L.geoJSON(data, {
       style: styleInfo
     }).addTo(tectonicPlates)
+
+    tectonicPlates.addTo(map)
   })
 
 });
